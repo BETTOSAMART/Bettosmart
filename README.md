@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        header {
+            background-color: #1d3557;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #1d3557;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #1d3557;
+            border-bottom: 2px solid #1d3557;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #1d3557;
+        }
+        .social-links a:hover {
+            color: #e63946;
+        }
+        footer {
+            background-color: #1d3557;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site Pessoal</h1>
+        <nav>
+            <a href="#home">Início</a>
+            <a href="#about">Sobre Mim</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="home" class="section">
+            <h2>Página Inicial</h2>
+            <p>Bem-vindo ao meu site pessoal! Aqui você encontrará informações sobre mim, meu trabalho e como entrar em contato.</p>
+        </section>
+
+        <section id="about" class="section">
+            <h2>Sobre Mim</h2>
+            <p>[Sua biografia, experiência e educação aqui]</p>
+        </section>
+
+        <section id="portfolio" class="section">
+            <h2>Portfólio</h2>
+            <p>[Lista de projetos com descrições, links e imagens]</p>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contato</h2>
+            <p>[Suas informações de contato, como e-mail, telefone, etc.]</p>
+        </section>
+
+        <div class="social-links">
+            <a href="https://github.com/seu-usuario" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/seu-usuario" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/seu-usuario" target="_blank">Twitter</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Meu Nome. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
